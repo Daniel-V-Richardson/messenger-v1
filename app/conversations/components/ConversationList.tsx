@@ -109,10 +109,12 @@ const ConversationList: React.FC<ConversationListProps> = ({
                     isOpen ? 'hidden' : 'block w-full left-0'
                 )}
             >
-                <div className="px-5">
-                    <div className="flex justify-between mb-4 pt-4">
+                <div className="">
+                    <div className=" px-5 py-5 flex justify-between mb-4 pt-4 rounded-b-[20px]
+                        bg-[#212121]">
                         <div className="
                         text-2xl
+                        
                         font-bold
                         text-white
                     ">

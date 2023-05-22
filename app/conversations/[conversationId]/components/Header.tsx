@@ -42,6 +42,7 @@ const Header: React.FC<HeaderProps> = ({
                 onClose={() => setDrawerOpen(false)} />
             <div className="
             bg-[#212121]
+            rounded-b-[20px]
             w-full
             flex
             border-b-[1px]

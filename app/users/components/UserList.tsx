@@ -27,11 +27,15 @@ const UserList: React.FC<UserListProps> = ({
             w-full
             left-0"
         >
-            <div className="px-5">
+            <div className="px-0">
                 <div className="flex-col">
                     <div className="text-2xl
                     font-bold
+                    rounded-b-[20px]
+                    w-full
+                    bg-[#212121]
                     text-white
+                    px-4
                     py-4">
                         People
                     </div>
